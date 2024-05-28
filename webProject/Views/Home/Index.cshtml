@@ -1,0 +1,155 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    button{ color: white;
+        background-color: forestgreen;
+        height: 50px;
+        width: 150px;
+        font: inherit;
+        border: none;
+        margin-top: 70px;
+        font-size: 25px;
+        text-align: left;
+        padding-left: 20px;
+        
+       }
+
+    #main {
+        background-image: url("https://www.elliothook.co.uk/wp-content/uploads/2015/03/red-deer-rut-woburn.jpg");
+        background-position: center;
+        
+    }
+
+    #p1{
+        position: relative;
+        h1{
+           
+            font: inherit;
+            font-size: 60px;
+          }
+          p{
+              font: inherit;
+              font-size: 30px;
+          }
+    }
+    
+
+    #d1{
+        float:left;
+       
+        width:33.33%;
+
+        .img-1{
+        float:left;
+        height:85px;
+        width:85px;
+        align-content:center;
+        }
+        h1{
+            font-family:inherit;
+            font-size: 25px;
+        }
+        p{
+            font-size:15px;
+
+        }
+    }
+
+    #d2 {
+        width: 33.33%;
+        float:right;
+        .img-2
+    {
+        float:left;
+        height: 85px;
+        width: 85px;
+       
+    }
+
+    h1 {
+        font-family: inherit;
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align:left;
+    }
+
+    }
+
+    #d3 {
+        width: 32.33%;
+        margin: 0 auto;
+
+        .img-3
+
+    {
+        float: left;
+        height: 70px;
+        width: 70px;
+    }
+
+    h1 {
+        font-family: inherit;
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align:center;
+    }
+
+    }
+    #btm_div{
+        margin-top:50px;
+        p{color:beige;}
+        h1{color:black}
+</style>
+
+<body id="main">
+
+    <div id="p1" >
+    <h1>Welcome to Wild Cahrity </h1>
+    <p>Give Love To Save The Animal World</p>
+</div>
+
+<div >
+    
+    <button>
+            <span>Donate</span>
+            <ion-icon name="heart-outline" aria-hidden="true" >
+            </ion-icon>
+    </button>
+
+</div>
+
+<div id="btm_div" class="align-bottom">
+     
+
+        <div id="d1">
+                <img class="img-1" src="~/css/verify-removebg-preview.png"/>
+                <h1>Safe Shelter</h1>
+            <p>Safe shelter for animals that provides a secure and nurturing environment for animals in need.</p>
+
+        </div>
+
+        <div id="d2">
+            <img class="img-2" src="~/css/waterdrop-removebg-preview.png" />
+            <h1>Safe Water</h1>
+            <p>Safe water for animals, free from contaminants, and regularly monitored to ensure health and well-being.</p>
+
+        </div>
+
+        <div id="d3">
+            <img class="img-3" src="~/css/leaf-removebg-preview.png" />
+            <h1>Safe Environment</h1>
+            <p>Safe environment for animals, clean forest and avoiding construction sites on wild land.</p>
+
+        </div>
+</div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
